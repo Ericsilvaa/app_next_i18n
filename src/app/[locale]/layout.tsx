@@ -13,18 +13,16 @@ export const metadata = {
   description: 'A professional institution website'
 }
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
+interface LayoutProps {
   children: React.ReactNode
   params: { locale: string }
-}) {
-  const { locale } = await params
+}
+
+export default async function LocaleLayout({ children, params }: LayoutProps) {
   const messages = await getMessages()
 
   return (
-    <html lang={locale}>
+    <html lang={`${params.locale}`}>
       <body suppressHydrationWarning={true} className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Header />
