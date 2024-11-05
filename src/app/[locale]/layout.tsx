@@ -44,6 +44,11 @@ export default async function LocaleLayout({
                     Programs
                   </Link>
                 </li>
+                <li>
+                  <Link href='/about' className='hover:underline'>
+                    About
+                  </Link>
+                </li>
               </ul>
             </nav>
           </header>
