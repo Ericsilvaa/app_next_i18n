@@ -1,31 +1,47 @@
 'use client'
+import { useRouter } from '@/navigation'
 import { useTranslations } from 'next-intl'
 
 function ProgramsPage() {
   const t = useTranslations('Programs')
+  const router = useRouter()
 
   const programs = [
     {
-      key: 'education',
-      title: t('educationProgram'),
-      description: t('educationDescription')
+      key: 'educationProgram',
+      title: t('educationProgram.title'),
+      description: t('educationProgram.description')
     },
     {
-      key: 'health',
-      title: t('healthProgram'),
-      description: t('healthDescription')
+      key: 'healthProgram',
+      title: t('healthProgram.title'),
+      description: t('healthProgram.description')
     },
     {
-      key: 'community',
-      title: t('communityProgram'),
-      description: t('communityDescription')
+      key: 'communityProgram',
+      title: t('communityProgram.title'),
+      description: t('communityProgram.description')
     },
     {
-      key: 'volunteer',
-      title: t('volunteerProgram'),
-      description: t('volunteerDescription')
+      key: 'volunteerProgram',
+      title: t('volunteerProgram.title'),
+      description: t('volunteerProgram.description')
+    },
+    {
+      key: 'undergraduate',
+      title: t('undergraduate.title'),
+      description: t('undergraduate.description')
+    },
+    {
+      key: 'graduate',
+      title: t('graduate.title'),
+      description: t('graduate.description')
     }
   ]
+
+  const handleLearnMoreClick = (programId: string) => {
+    router.push(`/programs/${programId}`)
+  }
 
   const testimonials = [t('testimonial1'), t('testimonial2'), t('testimonial3')]
 
@@ -55,7 +71,10 @@ function ProgramsPage() {
               <p className='text-gray-600 text-sm mb-4'>
                 {program.description}
               </p>
-              <button className='text-blue-600 font-semibold hover:underline'>
+              <button
+                onClick={() => handleLearnMoreClick(program.key)}
+                className='text-blue-600 font-semibold hover:underline'
+              >
                 {t('learnMoreButton')}
               </button>
             </div>
@@ -63,7 +82,7 @@ function ProgramsPage() {
         </div>
       </section>
 
-      {/* Seção de Impacto */}
+      {/* Seção de Impacto
       <section className='text-center'>
         <h2 className='text-3xl font-bold text-blue-800 mb-4'>
           {t('programImpactTitle')}
@@ -71,7 +90,7 @@ function ProgramsPage() {
         <p className='text-gray-600 max-w-3xl mx-auto'>
           {t('programImpactDescription')}
         </p>
-      </section>
+      </section> */}
 
       {/* Histórias de Sucesso */}
       <section className='bg-gray-50 p-8 rounded-lg'>
