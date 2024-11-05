@@ -161,5 +161,12 @@
     "programs": "Programmi",
     "events": "Eventi",
     "contact": "Contattaci"
+  },
+  "Footer": {
+    "rightsReserved": "© 2024 Sito Web dell'Istituzione. Tutti i diritti riservati.",
+    "contactUs": "Contattaci",
+    "followUs": "Seguici",
+    "aboutUs": "Chi Siamo",
+    "programs": "Programmi"
   }
 }

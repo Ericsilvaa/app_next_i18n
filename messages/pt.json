@@ -161,5 +161,12 @@
     "programs": "Programas",
     "events": "Eventos",
     "contact": "Contato"
+  },
+  "Footer": {
+    "rightsReserved": "© 2024 Institution Website. Todos os direitos reservados.",
+    "contactUs": "Fale Conosco",
+    "followUs": "Siga-nos",
+    "aboutUs": "Sobre Nós",
+    "programs": "Programas"
   }
 }

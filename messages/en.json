@@ -163,5 +163,12 @@
     "contact": "Contact",
     "terms": "Terms",
     "privacy": "Privacy"
+  },
+  "Footer": {
+    "rightsReserved": "© 2024 Institution Website. All rights reserved.",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "aboutUs": "About Us",
+    "programs": "Programs"
   }
 }
