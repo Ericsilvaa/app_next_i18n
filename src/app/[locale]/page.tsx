@@ -1,6 +1,7 @@
 import ProgramsSection from '@/components/sections/Programs'
 import { Link } from '@/navigation'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 export default function Home() {
   const t = useTranslations('Home')
@@ -27,15 +28,20 @@ export default function Home() {
             {t('introText')}
           </p>
         </div>
-        <div className='relative h-64 md:h-full bg-gray-200 rounded-lg overflow-hidden'>
-          {/* Exemplo de imagem - Substitua o código comentado abaixo com a imagem real */}
-          {/* <Image
-            src='/institution.jpg'
+        <div className='relative w-full h-72'>
+          <Image
+            src='/images/university.jpg'
             alt='Institution building'
-            layout='fill'
             objectFit='cover'
-            className='rounded-lg'
-          /> */}
+            width={300}
+            height={300}
+            className='rounded-lg w-full h-full brightness-75'
+          />
+          <div className='absolute inset-0 flex items-center justify-center'>
+            <span className='text-center text-white text-2xl font-semibold'>
+              {t('missionStatement')}
+            </span>
+          </div>
         </div>
       </section>
 

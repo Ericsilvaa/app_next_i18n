@@ -63,7 +63,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            href='https://linkedin.com'
+            href='https://www.linkedin.com/in/eric-oliveiraa/'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-primary-light'

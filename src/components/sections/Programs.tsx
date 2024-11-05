@@ -35,10 +35,6 @@ const ProgramsSection = () => {
 
   return (
     <section>
-      {/* Título da Seção de Programas */}
-      <h2 className='text-3xl font-bold text-blue-700 mb-6 text-center'>
-        {t('pageTitle')}
-      </h2>
       <p className='text-center text-gray-600 mb-8 max-w-2xl mx-auto'>
         {t('programOverview')}
       </p>
