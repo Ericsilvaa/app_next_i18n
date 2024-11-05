@@ -98,16 +98,20 @@
     }
   },
   "Events": {
+    "locale": "it",
     "pageTitle": "Eventi e Attività",
     "upcomingEvents": "Prossimi Eventi",
-    "noEvents": "Nessun evento in programma al momento.",
+    "noEvents": "Nessun evento programmato al momento.",
     "eventNameLabel": "Nome dell'Evento:",
     "eventDateLabel": "Data:",
     "eventLocationLabel": "Luogo:",
+    "eventOrganizerLabel": "Organizzatore:",
+    "targetAudienceLabel": "Pubblico Target:",
+    "eventDescriptionLabel": "Descrizione:",
     "registerButton": "Iscriviti a questo Evento",
     "pastEvents": "Eventi Passati",
     "eventGallery": "Galleria di Eventi",
-    "viewDetails": "Visualizza i dettagli",
+    "viewDetails": "Vedi Dettagli",
     "eventDescriptionTitle": "Descrizione dell'Evento",
     "joinUsMessage": "Partecipa ai nostri eventi e fai parte di questo viaggio con noi!"
   },

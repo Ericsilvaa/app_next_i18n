@@ -98,12 +98,16 @@
     }
   },
   "Events": {
+    "locale": "pt",
     "pageTitle": "Eventos e Atividades",
     "upcomingEvents": "Próximos Eventos",
     "noEvents": "Nenhum evento programado no momento.",
     "eventNameLabel": "Nome do Evento:",
     "eventDateLabel": "Data:",
     "eventLocationLabel": "Localização:",
+    "eventOrganizerLabel": "Organizador:",
+    "targetAudienceLabel": "Público-Alvo:",
+    "eventDescriptionLabel": "Descrição:",
     "registerButton": "Inscreva-se para este Evento",
     "pastEvents": "Eventos Anteriores",
     "eventGallery": "Galeria de Eventos",

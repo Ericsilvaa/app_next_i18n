@@ -98,16 +98,20 @@
     }
   },
   "Events": {
+    "locale": "en",
     "pageTitle": "Events and Activities",
     "upcomingEvents": "Upcoming Events",
-    "noEvents": "No scheduled events at the moment.",
+    "noEvents": "No events scheduled at the moment.",
     "eventNameLabel": "Event Name:",
     "eventDateLabel": "Date:",
     "eventLocationLabel": "Location:",
+    "eventOrganizerLabel": "Organizer:",
+    "targetAudienceLabel": "Target Audience:",
+    "eventDescriptionLabel": "Description:",
     "registerButton": "Register for this Event",
     "pastEvents": "Past Events",
     "eventGallery": "Event Gallery",
-    "viewDetails": "View details",
+    "viewDetails": "View Details",
     "eventDescriptionTitle": "Event Description",
     "joinUsMessage": "Join our events and be part of this journey with us!"
   },

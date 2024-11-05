@@ -98,18 +98,22 @@
     }
   },
   "Events": {
+    "locale": "es",
     "pageTitle": "Eventos y Actividades",
     "upcomingEvents": "Próximos Eventos",
     "noEvents": "No hay eventos programados en este momento.",
     "eventNameLabel": "Nombre del Evento:",
     "eventDateLabel": "Fecha:",
     "eventLocationLabel": "Ubicación:",
-    "registerButton": "Registrarse para este Evento",
+    "eventOrganizerLabel": "Organizador:",
+    "targetAudienceLabel": "Público Objetivo:",
+    "eventDescriptionLabel": "Descripción:",
+    "registerButton": "Regístrate para este Evento",
     "pastEvents": "Eventos Pasados",
     "eventGallery": "Galería de Eventos",
-    "viewDetails": "Ver detalles",
+    "viewDetails": "Ver Detalles",
     "eventDescriptionTitle": "Descripción del Evento",
-    "joinUsMessage": "¡Únete a nuestros eventos y forma parte de este viaje con nosotros!"
+    "joinUsMessage": "¡Únete a nuestros eventos y sé parte de este viaje con nosotros!"
   },
   "Contact": {
     "pageTitle": "Contáctenos",
