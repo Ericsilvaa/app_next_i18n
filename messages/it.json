@@ -30,17 +30,24 @@
   },
   "Programs": {
     "pageTitle": "I Nostri Programmi",
-    "programOverview": "Offriamo una vasta gamma di programmi focalizzati su istruzione, salute e sviluppo comunitario.",
+    "programOverview": "Offriamo una vasta gamma di programmi focalizzati sull'istruzione, la salute e lo sviluppo della comunità.",
     "educationProgram": "Programma Educativo",
-    "educationDescription": "Corsi e workshop per tutte le età, mirati allo sviluppo di competenze essenziali.",
-    "healthProgram": "Programma Sanitario",
+    "educationDescription": "Corsi e laboratori per tutte le età, volti a sviluppare competenze essenziali.",
+    "healthProgram": "Programma di Salute",
     "healthDescription": "Servizi sanitari accessibili e campagne di sensibilizzazione per una vita sana.",
     "communityProgram": "Programma Comunitario",
-    "communityDescription": "Iniziative per rafforzare la coesione sociale e sostenere i gruppi vulnerabili.",
+    "communityDescription": "Iniziative per rafforzare la coesione sociale e supportare i gruppi vulnerabili.",
     "volunteerProgram": "Programma di Volontariato",
-    "volunteerDescription": "Opportunità di volontariato per chi vuole fare la differenza.",
-    "applyButton": "Iscriviti a un Programma",
-    "learnMoreButton": "Scopri di più"
+    "volunteerDescription": "Opportunità di volontariato per coloro che vogliono fare la differenza.",
+    "applyButton": "Unisciti a un Programma",
+    "learnMoreButton": "Scopri di Più",
+    "successStoriesTitle": "Storie di Successo",
+    "successStoriesDescription": "Scopri come i nostri programmi hanno avuto un impatto positivo nella vita delle persone.",
+    "testimonial1": "Grazie al Programma Educativo, ho migliorato le mie competenze e trovato un lavoro.",
+    "testimonial2": "Il Programma di Salute è stato fondamentale per il mio recupero e benessere.",
+    "testimonial3": "Partecipare al Programma Comunitario mi ha aiutato a fare amicizie e a supportare la mia comunità.",
+    "programImpactTitle": "L'Impatto dei Nostri Programmi",
+    "programImpactDescription": "Siamo impegnati a trasformare vite e contribuire a una società più giusta e inclusiva."
   },
   "Events": {
     "pageTitle": "Eventi e Attività",
@@ -58,7 +65,7 @@
   },
   "Contact": {
     "pageTitle": "Contattaci",
-    "contactInstructions": "Compila il modulo sottostante o contattaci attraverso i nostri canali di servizio.",
+    "contactInstructions": "Compila il modulo qui sotto o contattaci tramite i nostri canali di contatto.",
     "nameLabel": "Il Tuo Nome",
     "namePlaceholder": "Inserisci il tuo nome completo",
     "emailLabel": "Email",
@@ -71,7 +78,8 @@
     "email": "Email",
     "address": "Indirizzo",
     "socialMedia": "Seguici sui Social Media",
-    "officeHours": "Orari di Apertura"
+    "officeHours": "Orario di Apertura",
+    "backToHome": "Torna alla Pagina Iniziale"
   },
   "Terms": {
     "pageTitle": "Termini e Condizioni",

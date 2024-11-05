@@ -34,13 +34,20 @@
     "educationProgram": "Educational Program",
     "educationDescription": "Courses and workshops for all ages, aimed at developing essential skills.",
     "healthProgram": "Health Program",
-    "healthDescription": "Accessible health services and awareness campaigns for a healthy life.",
+    "healthDescription": "Accessible healthcare services and awareness campaigns for a healthy life.",
     "communityProgram": "Community Program",
     "communityDescription": "Initiatives to strengthen social cohesion and support vulnerable groups.",
     "volunteerProgram": "Volunteer Program",
     "volunteerDescription": "Volunteer opportunities for those who want to make a difference.",
-    "applyButton": "Apply to a Program",
-    "learnMoreButton": "Learn More"
+    "applyButton": "Join a Program",
+    "learnMoreButton": "Learn More",
+    "successStoriesTitle": "Success Stories",
+    "successStoriesDescription": "See how our programs have positively impacted people's lives.",
+    "testimonial1": "Thanks to the Educational Program, I improved my skills and found a job.",
+    "testimonial2": "The Health Program was essential for my recovery and well-being.",
+    "testimonial3": "Participating in the Community Program helped me make friends and support my community.",
+    "programImpactTitle": "The Impact of Our Programs",
+    "programImpactDescription": "We are committed to transforming lives and contributing to a fairer and more inclusive society."
   },
   "Events": {
     "pageTitle": "Events and Activities",
@@ -58,7 +65,7 @@
   },
   "Contact": {
     "pageTitle": "Contact Us",
-    "contactInstructions": "Fill out the form below or contact us through our service channels.",
+    "contactInstructions": "Fill out the form below or get in touch through our contact channels.",
     "nameLabel": "Your Name",
     "namePlaceholder": "Enter your full name",
     "emailLabel": "Email",
@@ -71,7 +78,8 @@
     "email": "Email",
     "address": "Address",
     "socialMedia": "Follow us on Social Media",
-    "officeHours": "Office Hours"
+    "officeHours": "Office Hours",
+    "backToHome": "Back to Home Page"
   },
   "Terms": {
     "pageTitle": "Terms and Conditions",

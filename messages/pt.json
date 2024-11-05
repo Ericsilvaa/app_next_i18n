@@ -40,7 +40,14 @@
     "volunteerProgram": "Programa de Voluntariado",
     "volunteerDescription": "Oportunidades de voluntariado para aqueles que desejam fazer a diferença.",
     "applyButton": "Inscreva-se em um Programa",
-    "learnMoreButton": "Saiba Mais"
+    "learnMoreButton": "Saiba Mais",
+    "successStoriesTitle": "Histórias de Sucesso",
+    "successStoriesDescription": "Veja como nossos programas têm impactado positivamente a vida das pessoas.",
+    "testimonial1": "Graças ao Programa de Educação, consegui aprimorar minhas habilidades e conquistar um emprego.",
+    "testimonial2": "O Programa de Saúde foi essencial para a minha recuperação e bem-estar.",
+    "testimonial3": "Participar do Programa Comunitário me ajudou a fazer amigos e apoiar minha comunidade.",
+    "programImpactTitle": "O Impacto dos Nossos Programas",
+    "programImpactDescription": "Estamos comprometidos em transformar vidas e contribuir para uma sociedade mais justa e inclusiva."
   },
   "Events": {
     "pageTitle": "Eventos e Atividades",
@@ -71,7 +78,8 @@
     "email": "Email",
     "address": "Endereço",
     "socialMedia": "Siga-nos nas Redes Sociais",
-    "officeHours": "Horário de Atendimento"
+    "officeHours": "Horário de Atendimento",
+    "backToHome": "Voltar para a Página Inicial"
   },
   "Terms": {
     "pageTitle": "Termos e Condições",
