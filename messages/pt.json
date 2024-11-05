@@ -31,14 +31,6 @@
   "Programs": {
     "pageTitle": "Nossos Programas",
     "programOverview": "Oferecemos uma ampla gama de programas voltados para a educação, saúde e desenvolvimento comunitário.",
-    "educationProgram": "Programa Educacional",
-    "educationDescription": "Cursos e oficinas para todas as idades, visando o desenvolvimento de habilidades essenciais.",
-    "healthProgram": "Programa de Saúde",
-    "healthDescription": "Serviços de saúde acessíveis e campanhas de conscientização para uma vida saudável.",
-    "communityProgram": "Programa Comunitário",
-    "communityDescription": "Iniciativas para fortalecer a coesão social e apoiar grupos vulneráveis.",
-    "volunteerProgram": "Programa de Voluntariado",
-    "volunteerDescription": "Oportunidades de voluntariado para aqueles que desejam fazer a diferença.",
     "applyButton": "Inscreva-se em um Programa",
     "learnMoreButton": "Saiba Mais",
     "successStoriesTitle": "Histórias de Sucesso",
@@ -47,7 +39,55 @@
     "testimonial2": "O Programa de Saúde foi essencial para a minha recuperação e bem-estar.",
     "testimonial3": "Participar do Programa Comunitário me ajudou a fazer amigos e apoiar minha comunidade.",
     "programImpactTitle": "O Impacto dos Nossos Programas",
-    "programImpactDescription": "Estamos comprometidos em transformar vidas e contribuir para uma sociedade mais justa e inclusiva."
+    "programImpactDescription": "Estamos comprometidos em transformar vidas e contribuir para uma sociedade mais justa e inclusiva.",
+    "educationProgram": {
+      "title": "Programa Educacional",
+      "description": "Cursos e oficinas para todas as idades, visando o desenvolvimento de habilidades essenciais.",
+      "fullDescription": "Nosso programa educacional oferece uma variedade de cursos e oficinas para o desenvolvimento de habilidades fundamentais em diversas áreas. Acreditamos que a educação é a chave para o crescimento pessoal e profissional.",
+      "duration": "Variável",
+      "admissionRequirements": "Interesse no desenvolvimento pessoal\nIdade mínima de 16 anos\nCompromisso com o aprendizado",
+      "careers": "Professor\nInstrutor\nEspecialista em Educação\nConselheiro de Carreira"
+    },
+    "healthProgram": {
+      "title": "Programa de Saúde",
+      "description": "Serviços de saúde acessíveis e campanhas de conscientização para uma vida saudável.",
+      "fullDescription": "Nosso programa de saúde é projetado para promover o bem-estar físico e mental através de atividades, palestras e atendimentos acessíveis à comunidade.",
+      "duration": "Variável",
+      "admissionRequirements": "Idade mínima de 18 anos\nCompromisso com um estilo de vida saudável",
+      "careers": "Profissional de Saúde\nConselheiro de Bem-Estar\nInstrutor de Fitness\nNutricionista"
+    },
+    "communityProgram": {
+      "title": "Programa Comunitário",
+      "description": "Iniciativas para fortalecer a coesão social e apoiar grupos vulneráveis.",
+      "fullDescription": "O programa comunitário visa apoiar grupos vulneráveis e promover a integração social através de ações de voluntariado e campanhas de conscientização.",
+      "duration": "Variável",
+      "admissionRequirements": "Idade mínima de 16 anos\nVontade de ajudar a comunidade\nDisponibilidade para atividades de campo",
+      "careers": "Trabalhador Social\nCoordenador de Comunidade\nVoluntário em ONGs\nAssistente Social"
+    },
+    "volunteerProgram": {
+      "title": "Programa de Voluntariado",
+      "description": "Oportunidades de voluntariado para aqueles que desejam fazer a diferença.",
+      "fullDescription": "Nosso programa de voluntariado oferece diversas oportunidades para pessoas que desejam contribuir para a sociedade. Voluntários têm a chance de impactar positivamente a vida de muitos.",
+      "duration": "Variável",
+      "admissionRequirements": "Idade mínima de 16 anos\nCompromisso com o trabalho voluntário\nDisponibilidade para participar das atividades",
+      "careers": "Voluntário\nCoordenador de Projetos Sociais\nEspecialista em Responsabilidade Social"
+    },
+    "undergraduate": {
+      "title": "Programas de Graduação",
+      "description": "Nossos programas de graduação oferecem uma variedade de cursos para ajudar você a seguir sua paixão e se preparar para sua futura carreira.",
+      "fullDescription": "Nossos programas de graduação são projetados para proporcionar aos estudantes uma educação abrangente, combinando conhecimento teórico com habilidades práticas. Oferecemos mais de 50 cursos em várias áreas, incluindo artes e ciências, negócios, engenharia e mais. Nosso currículo é constantemente atualizado para refletir as últimas inovações em cada campo, garantindo que nossos formandos estejam bem preparados para os desafios do mercado de trabalho moderno.",
+      "duration": "4 anos",
+      "admissionRequirements": "Diploma de ensino médio ou equivalente\nMédia mínima de 3.0\nNotas do SAT ou ACT\nCartas de recomendação\nDeclaração pessoal",
+      "careers": "Analista de Negócios\nDesenvolvedor de Software\nEspecialista em Marketing\nCientista Ambiental\nDesigner Gráfico"
+    },
+    "graduate": {
+      "title": "Programas de Pós-graduação",
+      "description": "Avance em sua carreira com nossos programas de pós-graduação, projetados para aprofundar seu conhecimento e expandir sua rede profissional.",
+      "fullDescription": "Nossos programas de pós-graduação são adaptados para profissionais que buscam avançar em suas carreiras ou transitar para novas áreas. Oferecemos mestrados, doutorados e certificados de pós-graduação em diversas disciplinas. Nossos programas enfatizam a pesquisa avançada, o pensamento crítico e as habilidades de liderança, preparando os alunos para se tornarem líderes e inovadores em suas respectivas áreas.",
+      "duration": "1-5 anos, dependendo do programa",
+      "admissionRequirements": "Diploma de bacharel de uma instituição credenciada\nMédia mínima de 3.0 nos estudos de graduação\nNotas do GRE ou GMAT (para alguns programas)\nCartas de recomendação\nCarta de motivação\nCurrículo ou CV",
+      "careers": "Cientista de Dados\nCientista Pesquisador\nGerente Sênior\nProfessor Universitário\nConsultor"
+    }
   },
   "Events": {
     "pageTitle": "Eventos e Atividades",

@@ -31,23 +31,63 @@
   "Programs": {
     "pageTitle": "Our Programs",
     "programOverview": "We offer a wide range of programs focused on education, health, and community development.",
-    "educationProgram": "Educational Program",
-    "educationDescription": "Courses and workshops for all ages, aimed at developing essential skills.",
-    "healthProgram": "Health Program",
-    "healthDescription": "Accessible healthcare services and awareness campaigns for a healthy life.",
-    "communityProgram": "Community Program",
-    "communityDescription": "Initiatives to strengthen social cohesion and support vulnerable groups.",
-    "volunteerProgram": "Volunteer Program",
-    "volunteerDescription": "Volunteer opportunities for those who want to make a difference.",
-    "applyButton": "Join a Program",
+    "applyButton": "Enroll in a Program",
     "learnMoreButton": "Learn More",
     "successStoriesTitle": "Success Stories",
     "successStoriesDescription": "See how our programs have positively impacted people's lives.",
-    "testimonial1": "Thanks to the Educational Program, I improved my skills and found a job.",
+    "testimonial1": "Thanks to the Education Program, I improved my skills and landed a job.",
     "testimonial2": "The Health Program was essential for my recovery and well-being.",
     "testimonial3": "Participating in the Community Program helped me make friends and support my community.",
     "programImpactTitle": "The Impact of Our Programs",
-    "programImpactDescription": "We are committed to transforming lives and contributing to a fairer and more inclusive society."
+    "programImpactDescription": "We are committed to transforming lives and contributing to a more just and inclusive society.",
+    "educationProgram": {
+      "title": "Education Program",
+      "description": "Courses and workshops for all ages, aimed at developing essential skills.",
+      "fullDescription": "Our education program offers a variety of courses and workshops for developing fundamental skills in various areas. We believe education is key to personal and professional growth.",
+      "duration": "Variable",
+      "admissionRequirements": "Interest in personal development\nMinimum age of 16 years\nCommitment to learning",
+      "careers": "Teacher\nInstructor\nEducation Specialist\nCareer Advisor"
+    },
+    "healthProgram": {
+      "title": "Health Program",
+      "description": "Accessible health services and awareness campaigns for a healthy life.",
+      "fullDescription": "Our health program is designed to promote physical and mental well-being through activities, lectures, and accessible community services.",
+      "duration": "Variable",
+      "admissionRequirements": "Minimum age of 18 years\nCommitment to a healthy lifestyle",
+      "careers": "Health Professional\nWellness Advisor\nFitness Instructor\nNutritionist"
+    },
+    "communityProgram": {
+      "title": "Community Program",
+      "description": "Initiatives to strengthen social cohesion and support vulnerable groups.",
+      "fullDescription": "The community program aims to support vulnerable groups and promote social integration through volunteer actions and awareness campaigns.",
+      "duration": "Variable",
+      "admissionRequirements": "Minimum age of 16 years\nWillingness to help the community\nAvailability for field activities",
+      "careers": "Social Worker\nCommunity Coordinator\nVolunteer in NGOs\nSocial Assistant"
+    },
+    "volunteerProgram": {
+      "title": "Volunteer Program",
+      "description": "Volunteer opportunities for those who want to make a difference.",
+      "fullDescription": "Our volunteer program offers various opportunities for people who wish to contribute to society. Volunteers have the chance to make a positive impact on many lives.",
+      "duration": "Variable",
+      "admissionRequirements": "Minimum age of 16 years\nCommitment to volunteer work\nAvailability to participate in activities",
+      "careers": "Volunteer\nSocial Project Coordinator\nCorporate Social Responsibility Specialist"
+    },
+    "undergraduate": {
+      "title": "Undergraduate Programs",
+      "description": "Our undergraduate programs offer a variety of courses to help you pursue your passion and prepare for your future career.",
+      "fullDescription": "Our undergraduate programs are designed to provide students with a comprehensive education, combining theoretical knowledge with practical skills. We offer over 50 majors across various fields, including arts and sciences, business, engineering, and more. Our curriculum is constantly updated to reflect the latest innovations in each field, ensuring our graduates are well-prepared for the challenges of the modern workforce.",
+      "duration": "4 years",
+      "admissionRequirements": "High school diploma or equivalent\nMinimum GPA of 3.0\nSAT or ACT scores\nLetters of recommendation\nPersonal statement",
+      "careers": "Business Analyst\nSoftware Developer\nMarketing Specialist\nEnvironmental Scientist\nGraphic Designer"
+    },
+    "graduate": {
+      "title": "Graduate Programs",
+      "description": "Advance your career with our graduate programs, designed to deepen your knowledge and expand your professional network.",
+      "fullDescription": "Our graduate programs are tailored for professionals seeking career advancement or transition into new fields. We offer master's degrees, doctoral programs, and graduate certificates in various disciplines. Our programs emphasize advanced research, critical thinking, and leadership skills, preparing students to become leaders and innovators in their fields.",
+      "duration": "1-5 years, depending on the program",
+      "admissionRequirements": "Bachelor's degree from an accredited institution\nMinimum undergraduate GPA of 3.0\nGRE or GMAT scores (for some programs)\nLetters of recommendation\nStatement of purpose\nResume or CV",
+      "careers": "Data Scientist\nResearch Scientist\nSenior Manager\nUniversity Professor\nConsultant"
+    }
   },
   "Events": {
     "pageTitle": "Events and Activities",

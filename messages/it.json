@@ -30,24 +30,64 @@
   },
   "Programs": {
     "pageTitle": "I Nostri Programmi",
-    "programOverview": "Offriamo una vasta gamma di programmi focalizzati sull'istruzione, la salute e lo sviluppo della comunità.",
-    "educationProgram": "Programma Educativo",
-    "educationDescription": "Corsi e laboratori per tutte le età, volti a sviluppare competenze essenziali.",
-    "healthProgram": "Programma di Salute",
-    "healthDescription": "Servizi sanitari accessibili e campagne di sensibilizzazione per una vita sana.",
-    "communityProgram": "Programma Comunitario",
-    "communityDescription": "Iniziative per rafforzare la coesione sociale e supportare i gruppi vulnerabili.",
-    "volunteerProgram": "Programma di Volontariato",
-    "volunteerDescription": "Opportunità di volontariato per coloro che vogliono fare la differenza.",
-    "applyButton": "Unisciti a un Programma",
+    "programOverview": "Offriamo una vasta gamma di programmi focalizzati su educazione, salute e sviluppo della comunità.",
+    "applyButton": "Iscriviti a un Programma",
     "learnMoreButton": "Scopri di Più",
     "successStoriesTitle": "Storie di Successo",
-    "successStoriesDescription": "Scopri come i nostri programmi hanno avuto un impatto positivo nella vita delle persone.",
-    "testimonial1": "Grazie al Programma Educativo, ho migliorato le mie competenze e trovato un lavoro.",
-    "testimonial2": "Il Programma di Salute è stato fondamentale per il mio recupero e benessere.",
-    "testimonial3": "Partecipare al Programma Comunitario mi ha aiutato a fare amicizie e a supportare la mia comunità.",
+    "successStoriesDescription": "Scopri come i nostri programmi hanno avuto un impatto positivo sulla vita delle persone.",
+    "testimonial1": "Grazie al Programma di Educazione, ho migliorato le mie competenze e ho trovato un lavoro.",
+    "testimonial2": "Il Programma di Salute è stato essenziale per la mia guarigione e il mio benessere.",
+    "testimonial3": "Partecipare al Programma Comunitario mi ha aiutato a fare amicizie e supportare la mia comunità.",
     "programImpactTitle": "L'Impatto dei Nostri Programmi",
-    "programImpactDescription": "Siamo impegnati a trasformare vite e contribuire a una società più giusta e inclusiva."
+    "programImpactDescription": "Siamo impegnati a trasformare vite e contribuire a una società più giusta e inclusiva.",
+    "educationProgram": {
+      "title": "Programma Educativo",
+      "description": "Corsi e workshop per tutte le età, finalizzati allo sviluppo di competenze essenziali.",
+      "fullDescription": "Il nostro programma educativo offre una varietà di corsi e workshop per lo sviluppo di competenze fondamentali in diversi ambiti. Crediamo che l'istruzione sia la chiave per la crescita personale e professionale.",
+      "duration": "Variabile",
+      "admissionRequirements": "Interesse per lo sviluppo personale\nEtà minima di 16 anni\nImpegno per l'apprendimento",
+      "careers": "Insegnante\nIstruttore\nSpecialista in Educazione\nConsulente di Carriera"
+    },
+    "healthProgram": {
+      "title": "Programma di Salute",
+      "description": "Servizi di salute accessibili e campagne di sensibilizzazione per una vita sana.",
+      "fullDescription": "Il nostro programma di salute è progettato per promuovere il benessere fisico e mentale attraverso attività, conferenze e servizi accessibili alla comunità.",
+      "duration": "Variabile",
+      "admissionRequirements": "Età minima di 18 anni\nImpegno per uno stile di vita sano",
+      "careers": "Professionista della Salute\nConsulente del Benessere\nIstruttore di Fitness\nNutrizionista"
+    },
+    "communityProgram": {
+      "title": "Programma Comunitario",
+      "description": "Iniziative per rafforzare la coesione sociale e supportare i gruppi vulnerabili.",
+      "fullDescription": "Il programma comunitario mira a supportare i gruppi vulnerabili e promuovere l'integrazione sociale attraverso azioni di volontariato e campagne di sensibilizzazione.",
+      "duration": "Variabile",
+      "admissionRequirements": "Età minima di 16 anni\nDisponibilità ad aiutare la comunità\nDisponibilità per attività sul campo",
+      "careers": "Assistente Sociale\nCoordinatore Comunitario\nVolontario in ONG\nAssistente Sociale"
+    },
+    "volunteerProgram": {
+      "title": "Programma di Volontariato",
+      "description": "Opportunità di volontariato per chi vuole fare la differenza.",
+      "fullDescription": "Il nostro programma di volontariato offre diverse opportunità per coloro che desiderano contribuire alla società. I volontari hanno la possibilità di avere un impatto positivo sulla vita di molte persone.",
+      "duration": "Variabile",
+      "admissionRequirements": "Età minima di 16 anni\nImpegno per il lavoro di volontariato\nDisponibilità per partecipare alle attività",
+      "careers": "Volontario\nCoordinatore di Progetti Sociali\nSpecialista in Responsabilità Sociale"
+    },
+    "undergraduate": {
+      "title": "Programmi di Laurea",
+      "description": "I nostri programmi di laurea offrono una varietà di corsi per aiutarti a seguire la tua passione e prepararti per la tua futura carriera.",
+      "fullDescription": "I nostri programmi di laurea sono progettati per fornire agli studenti un'istruzione completa, combinando conoscenze teoriche con competenze pratiche. Offriamo oltre 50 corsi in vari settori, tra cui arti e scienze, economia, ingegneria e altro ancora.",
+      "duration": "4 anni",
+      "admissionRequirements": "Diploma di scuola superiore o equivalente\nGPA minimo di 3.0\nPunteggi SAT o ACT\nLettere di raccomandazione\nDichiarazione personale",
+      "careers": "Analista Aziendale\nSviluppatore di Software\nSpecialista di Marketing\nScienziato Ambientale\nDesigner Grafico"
+    },
+    "graduate": {
+      "title": "Programmi di Laurea Specialistica",
+      "description": "Avanza nella tua carriera con i nostri programmi di laurea specialistica, progettati per approfondire le tue conoscenze e ampliare la tua rete professionale.",
+      "fullDescription": "I nostri programmi di laurea specialistica sono adattati per professionisti che cercano di avanzare nelle loro carriere o di passare a nuovi settori.",
+      "duration": "1-5 anni, a seconda del programma",
+      "admissionRequirements": "Laurea triennale\nGPA minimo di 3.0\nPunteggi GRE o GMAT\nLettere di raccomandazione\nDichiarazione di intenti\nCurriculum vitae",
+      "careers": "Data Scientist\nRicercatore\nManager Senior\nProfessore Universitario\nConsulente"
+    }
   },
   "Events": {
     "pageTitle": "Eventi e Attività",
