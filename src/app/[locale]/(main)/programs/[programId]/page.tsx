@@ -93,33 +93,38 @@ const ProgramDetailPage = () => {
       <p className='text-lg text-gray-700 mb-6'>{program.fullDescription}</p>
 
       <div className='space-y-8'>
+        {/* Seção de Duração */}
         <section>
-          <h2 className='text-2xl font-semibold text-blue-700 mb-4'>Duração</h2>
+          <h2 className='text-2xl font-semibold text-blue-700 mb-4'>
+            {t('durationTitle')}
+          </h2>
           <p className='text-gray-600'>{program.duration}</p>
         </section>
 
+        {/* Seção de Requisitos de Admissão */}
         <section>
           <h2 className='text-2xl font-semibold text-blue-700 mb-4'>
-            Requisitos de Admissão
+            {t('admissionRequirementsTitle')}
           </h2>
           <p className='text-gray-600 whitespace-pre-line'>
             {program.admissionRequirements}
           </p>
         </section>
 
+        {/* Seção de Carreiras */}
         <section>
           <h2 className='text-2xl font-semibold text-blue-700 mb-4'>
-            Carreiras
+            {t('careersTitle')}
           </h2>
           <p className='text-gray-600 whitespace-pre-line'>{program.careers}</p>
         </section>
-
-        <section className='text-center mt-12'>
-          <button className='bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 transition duration-200'>
-            {t('applyButton')}
-          </button>
-        </section>
       </div>
+
+      <section className='text-center mt-12'>
+        <button className='bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 transition duration-200'>
+          {t('applyButton')}
+        </button>
+      </section>
     </div>
   )
 }
