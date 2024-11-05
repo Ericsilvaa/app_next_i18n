@@ -149,5 +149,8 @@
     "followUs": "Siga-nos",
     "aboutUs": "Sobre Nós",
     "programs": "Programas"
+  },
+  "NotFound": {
+    "returnHome": "Voltar para o início"
   }
 }
