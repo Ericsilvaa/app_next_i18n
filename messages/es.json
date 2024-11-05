@@ -13,20 +13,28 @@
     "missionStatement": "Nuestra misión es promover la inclusión y el desarrollo humano."
   },
   "About": {
-    "pageTitle": "Acerca de Nuestra Institución",
+    "pageTitle": "Sobre Nuestra Institución",
     "historyTitle": "Nuestra Historia",
-    "historyDescription": "Fundada en 1970, nuestra institución se dedica a apoyar a la comunidad con programas en educación, salud y bienestar.",
+    "historyDescription": "Fundada en 1970, nuestra institución se dedica a apoyar a la comunidad con programas de educación, salud y bienestar.",
     "missionTitle": "Misión",
     "missionDescription": "Promover la igualdad de oportunidades y el desarrollo sostenible en nuestra región.",
     "visionTitle": "Visión",
     "visionDescription": "Ser una institución de referencia en inclusión social.",
-    "teamTitle": "Conoce a Nuestro Equipo",
+    "teamTitle": "Conoce Nuestro Equipo",
+    "teamDescription": "Nuestro equipo está formado por profesionales dedicados a causas sociales con amplia experiencia en el desarrollo comunitario.",
     "valuesTitle": "Nuestros Valores",
     "value1": "Compromiso",
     "value2": "Respeto",
     "value3": "Transparencia",
     "value4": "Innovación",
-    "contactForMoreInfo": "Contáctanos para obtener más información sobre nuestra historia y trabajo."
+    "activitiesTitle": "Nuestras Actividades",
+    "activitiesDescription": "Ofrecemos diversos programas y actividades centrados en educación, inclusión y salud pública.",
+    "partnersTitle": "Nuestros Socios",
+    "partnersDescription": "Contamos con el apoyo de varias instituciones comprometidas con nuestra misión.",
+    "testimonialsTitle": "Testimonios",
+    "testimonial1": "Maria Silva: 'La institución ha transformado la vida de muchas personas en nuestra comunidad. Estoy agradecida por el trabajo de todos.'",
+    "testimonial2": "João Pereira: 'Participé en programas de capacitación y pude construir una carrera. Agradezco la oportunidad.'",
+    "contactForMoreInfo": "Contáctanos para más información sobre nuestra historia y trabajo."
   },
   "Programs": {
     "pageTitle": "Nuestros Programas",

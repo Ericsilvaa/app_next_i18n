@@ -13,20 +13,28 @@
     "missionStatement": "La nostra missione è promuovere l'inclusione e lo sviluppo umano."
   },
   "About": {
-    "pageTitle": "Informazioni sulla Nostra Istituzione",
+    "pageTitle": "La Nostra Istituzione",
     "historyTitle": "La Nostra Storia",
-    "historyDescription": "Fondata nel 1970, la nostra istituzione si dedica a sostenere la comunità con programmi di istruzione, salute e benessere.",
+    "historyDescription": "Fondata nel 1970, la nostra istituzione si dedica a sostenere la comunità con programmi di educazione, salute e benessere.",
     "missionTitle": "Missione",
     "missionDescription": "Promuovere pari opportunità e sviluppo sostenibile nella nostra regione.",
     "visionTitle": "Visione",
-    "visionDescription": "Essere un'istituzione di riferimento nell'inclusione sociale.",
+    "visionDescription": "Essere un'istituzione di riferimento per l'inclusione sociale.",
     "teamTitle": "Conosci il Nostro Team",
+    "teamDescription": "Il nostro team è composto da professionisti dedicati a cause sociali con ampia esperienza nello sviluppo comunitario.",
     "valuesTitle": "I Nostri Valori",
     "value1": "Impegno",
     "value2": "Rispetto",
     "value3": "Trasparenza",
     "value4": "Innovazione",
-    "contactForMoreInfo": "Contattaci per maggiori informazioni sulla nostra storia e lavoro."
+    "activitiesTitle": "Le Nostre Attività",
+    "activitiesDescription": "Offriamo vari programmi e attività mirati all'educazione, inclusione e salute pubblica.",
+    "partnersTitle": "I Nostri Partner",
+    "partnersDescription": "Abbiamo il supporto di diverse istituzioni impegnate nella nostra missione.",
+    "testimonialsTitle": "Testimonianze",
+    "testimonial1": "Maria Silva: 'L'istituzione ha trasformato la vita di molte persone nella nostra comunità. Sono grata per il lavoro di tutti.'",
+    "testimonial2": "João Pereira: 'Ho partecipato a programmi di formazione e sono riuscito a costruire una carriera. Apprezzo l'opportunità.'",
+    "contactForMoreInfo": "Contattaci per ulteriori informazioni sulla nostra storia e il nostro lavoro."
   },
   "Programs": {
     "pageTitle": "I Nostri Programmi",
