@@ -48,6 +48,9 @@
     "testimonial3": "Participar do Programa Comunitário me ajudou a fazer amigos e apoiar minha comunidade.",
     "programImpactTitle": "O Impacto dos Nossos Programas",
     "programImpactDescription": "Estamos comprometidos em transformar vidas e contribuir para uma sociedade mais justa e inclusiva.",
+    "durationTitle": "Duração",
+    "admissionRequirementsTitle": "Requisitos de Admissão",
+    "careersTitle": "Carreiras",
     "educationProgram": {
       "title": "Programa Educacional",
       "description": "Cursos e oficinas para todas as idades, visando o desenvolvimento de habilidades essenciais.",
@@ -133,28 +136,6 @@
     "officeHours": "Horário de Atendimento",
     "backToHome": "Voltar para a Página Inicial"
   },
-  "Terms": {
-    "pageTitle": "Termos e Condições",
-    "introduction": "Ao acessar este site, você concorda com nossos termos e condições.",
-    "userResponsibilities": "Responsabilidades do Usuário",
-    "userResponsibilitiesContent": "Os usuários são responsáveis por suas ações e dados fornecidos na plataforma.",
-    "dataUsage": "Uso de Dados",
-    "dataUsageContent": "Coletamos dados para melhorar nossos serviços e oferecer uma experiência personalizada.",
-    "modifications": "Modificações nos Termos",
-    "modificationsContent": "Reservamo-nos o direito de modificar os termos a qualquer momento.",
-    "contactForQuestions": "Entre em contato se tiver dúvidas sobre nossos termos."
-  },
-  "Privacy": {
-    "pageTitle": "Política de Privacidade",
-    "introduction": "Sua privacidade é importante para nós. Esta política descreve como tratamos suas informações pessoais.",
-    "dataCollection": "Coleta de Dados",
-    "dataCollectionContent": "Coletamos informações para fornecer serviços personalizados e melhorar nosso site.",
-    "dataProtection": "Proteção de Dados",
-    "dataProtectionContent": "Implementamos medidas de segurança para proteger suas informações.",
-    "userRights": "Direitos dos Usuários",
-    "userRightsContent": "Você tem o direito de acessar, corrigir e excluir seus dados pessoais.",
-    "contactForPrivacy": "Para mais informações sobre privacidade, entre em contato."
-  },
   "NavLink": {
     "home": "Início",
     "about": "Sobre",
@@ -163,7 +144,7 @@
     "contact": "Contato"
   },
   "Footer": {
-    "rightsReserved": "© 2024 Institution Website. Todos os direitos reservados.",
+    "rightsReserved": "Institution Website. Todos os direitos reservados.",
     "contactUs": "Fale Conosco",
     "followUs": "Siga-nos",
     "aboutUs": "Sobre Nós",
