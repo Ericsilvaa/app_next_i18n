@@ -1,6 +1,98 @@
 {
-  "HomePage": {
-    "title": "Olá Mundo!",
-    "about": "Ir para a página sobre"
+  "Home": {
+    "welcomeMessage": "Bem-vindo à nossa Instituição!",
+    "introText": "Fazemos a diferença na comunidade há mais de 50 anos.",
+    "explorePrograms": "Explore nossos programas",
+    "joinCommunity": "Junte-se à nossa comunidade",
+    "learnMore": "Saiba mais",
+    "featuredEvent": "Próximo Evento:",
+    "eventDetailsButton": "Ver detalhes do evento",
+    "volunteerCall": "Torne-se um voluntário e faça a diferença",
+    "donateButton": "Faça uma Doação",
+    "contactUs": "Entre em Contato Conosco",
+    "missionStatement": "Nossa missão é promover a inclusão e o desenvolvimento humano."
+  },
+  "About": {
+    "pageTitle": "Sobre a Nossa Instituição",
+    "historyTitle": "Nossa História",
+    "historyDescription": "Fundada em 1970, nossa instituição se dedica a apoiar a comunidade com programas de educação, saúde e bem-estar.",
+    "missionTitle": "Missão",
+    "missionDescription": "Promover a igualdade de oportunidades e o desenvolvimento sustentável em nossa região.",
+    "visionTitle": "Visão",
+    "visionDescription": "Ser uma instituição de referência em inclusão social.",
+    "teamTitle": "Conheça nossa Equipe",
+    "valuesTitle": "Nossos Valores",
+    "value1": "Comprometimento",
+    "value2": "Respeito",
+    "value3": "Transparência",
+    "value4": "Inovação",
+    "contactForMoreInfo": "Entre em contato para mais informações sobre nossa história e trabalho."
+  },
+  "Programs": {
+    "pageTitle": "Nossos Programas",
+    "programOverview": "Oferecemos uma ampla gama de programas voltados para a educação, saúde e desenvolvimento comunitário.",
+    "educationProgram": "Programa Educacional",
+    "educationDescription": "Cursos e oficinas para todas as idades, visando o desenvolvimento de habilidades essenciais.",
+    "healthProgram": "Programa de Saúde",
+    "healthDescription": "Serviços de saúde acessíveis e campanhas de conscientização para uma vida saudável.",
+    "communityProgram": "Programa Comunitário",
+    "communityDescription": "Iniciativas para fortalecer a coesão social e apoiar grupos vulneráveis.",
+    "volunteerProgram": "Programa de Voluntariado",
+    "volunteerDescription": "Oportunidades de voluntariado para aqueles que desejam fazer a diferença.",
+    "applyButton": "Inscreva-se em um Programa",
+    "learnMoreButton": "Saiba Mais"
+  },
+  "Events": {
+    "pageTitle": "Eventos e Atividades",
+    "upcomingEvents": "Próximos Eventos",
+    "noEvents": "Nenhum evento programado no momento.",
+    "eventNameLabel": "Nome do Evento:",
+    "eventDateLabel": "Data:",
+    "eventLocationLabel": "Localização:",
+    "registerButton": "Inscreva-se para este Evento",
+    "pastEvents": "Eventos Anteriores",
+    "eventGallery": "Galeria de Eventos",
+    "viewDetails": "Ver detalhes",
+    "eventDescriptionTitle": "Descrição do Evento",
+    "joinUsMessage": "Participe dos nossos eventos e faça parte desta jornada conosco!"
+  },
+  "Contact": {
+    "pageTitle": "Fale Conosco",
+    "contactInstructions": "Preencha o formulário abaixo ou entre em contato através de nossos canais de atendimento.",
+    "nameLabel": "Seu Nome",
+    "namePlaceholder": "Digite seu nome completo",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Digite seu endereço de email",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Escreva sua mensagem aqui",
+    "submitButton": "Enviar",
+    "contactInfoTitle": "Informações de Contato",
+    "phone": "Telefone",
+    "email": "Email",
+    "address": "Endereço",
+    "socialMedia": "Siga-nos nas Redes Sociais",
+    "officeHours": "Horário de Atendimento"
+  },
+  "Terms": {
+    "pageTitle": "Termos e Condições",
+    "introduction": "Ao acessar este site, você concorda com nossos termos e condições.",
+    "userResponsibilities": "Responsabilidades do Usuário",
+    "userResponsibilitiesContent": "Os usuários são responsáveis por suas ações e dados fornecidos na plataforma.",
+    "dataUsage": "Uso de Dados",
+    "dataUsageContent": "Coletamos dados para melhorar nossos serviços e oferecer uma experiência personalizada.",
+    "modifications": "Modificações nos Termos",
+    "modificationsContent": "Reservamo-nos o direito de modificar os termos a qualquer momento.",
+    "contactForQuestions": "Entre em contato se tiver dúvidas sobre nossos termos."
+  },
+  "Privacy": {
+    "pageTitle": "Política de Privacidade",
+    "introduction": "Sua privacidade é importante para nós. Esta política descreve como tratamos suas informações pessoais.",
+    "dataCollection": "Coleta de Dados",
+    "dataCollectionContent": "Coletamos informações para fornecer serviços personalizados e melhorar nosso site.",
+    "dataProtection": "Proteção de Dados",
+    "dataProtectionContent": "Implementamos medidas de segurança para proteger suas informações.",
+    "userRights": "Direitos dos Usuários",
+    "userRightsContent": "Você tem o direito de acessar, corrigir e excluir seus dados pessoais.",
+    "contactForPrivacy": "Para mais informações sobre privacidade, entre em contato."
   }
 }

@@ -1,6 +1,98 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "Home": {
+    "welcomeMessage": "Welcome to our Institution!",
+    "introText": "Making a difference in the community for over 50 years.",
+    "explorePrograms": "Explore our programs",
+    "joinCommunity": "Join our community",
+    "learnMore": "Learn more",
+    "featuredEvent": "Upcoming Event:",
+    "eventDetailsButton": "View event details",
+    "volunteerCall": "Become a volunteer and make a difference",
+    "donateButton": "Donate Now",
+    "contactUs": "Contact Us",
+    "missionStatement": "Our mission is to promote inclusion and human development."
+  },
+  "About": {
+    "pageTitle": "About Our Institution",
+    "historyTitle": "Our History",
+    "historyDescription": "Founded in 1970, our institution is dedicated to supporting the community with programs in education, health, and wellness.",
+    "missionTitle": "Mission",
+    "missionDescription": "To promote equal opportunities and sustainable development in our region.",
+    "visionTitle": "Vision",
+    "visionDescription": "To be a reference institution in social inclusion.",
+    "teamTitle": "Meet Our Team",
+    "valuesTitle": "Our Values",
+    "value1": "Commitment",
+    "value2": "Respect",
+    "value3": "Transparency",
+    "value4": "Innovation",
+    "contactForMoreInfo": "Contact us for more information about our history and work."
+  },
+  "Programs": {
+    "pageTitle": "Our Programs",
+    "programOverview": "We offer a wide range of programs focused on education, health, and community development.",
+    "educationProgram": "Educational Program",
+    "educationDescription": "Courses and workshops for all ages, aimed at developing essential skills.",
+    "healthProgram": "Health Program",
+    "healthDescription": "Accessible health services and awareness campaigns for a healthy life.",
+    "communityProgram": "Community Program",
+    "communityDescription": "Initiatives to strengthen social cohesion and support vulnerable groups.",
+    "volunteerProgram": "Volunteer Program",
+    "volunteerDescription": "Volunteer opportunities for those who want to make a difference.",
+    "applyButton": "Apply to a Program",
+    "learnMoreButton": "Learn More"
+  },
+  "Events": {
+    "pageTitle": "Events and Activities",
+    "upcomingEvents": "Upcoming Events",
+    "noEvents": "No scheduled events at the moment.",
+    "eventNameLabel": "Event Name:",
+    "eventDateLabel": "Date:",
+    "eventLocationLabel": "Location:",
+    "registerButton": "Register for this Event",
+    "pastEvents": "Past Events",
+    "eventGallery": "Event Gallery",
+    "viewDetails": "View details",
+    "eventDescriptionTitle": "Event Description",
+    "joinUsMessage": "Join our events and be part of this journey with us!"
+  },
+  "Contact": {
+    "pageTitle": "Contact Us",
+    "contactInstructions": "Fill out the form below or contact us through our service channels.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Send",
+    "contactInfoTitle": "Contact Information",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "socialMedia": "Follow us on Social Media",
+    "officeHours": "Office Hours"
+  },
+  "Terms": {
+    "pageTitle": "Terms and Conditions",
+    "introduction": "By accessing this website, you agree to our terms and conditions.",
+    "userResponsibilities": "User Responsibilities",
+    "userResponsibilitiesContent": "Users are responsible for their actions and data provided on the platform.",
+    "dataUsage": "Data Usage",
+    "dataUsageContent": "We collect data to improve our services and provide a personalized experience.",
+    "modifications": "Modifications to the Terms",
+    "modificationsContent": "We reserve the right to modify the terms at any time.",
+    "contactForQuestions": "Contact us if you have questions about our terms."
+  },
+  "Privacy": {
+    "pageTitle": "Privacy Policy",
+    "introduction": "Your privacy is important to us. This policy describes how we handle your personal information.",
+    "dataCollection": "Data Collection",
+    "dataCollectionContent": "We collect information to provide personalized services and improve our site.",
+    "dataProtection": "Data Protection",
+    "dataProtectionContent": "We implement security measures to protect your information.",
+    "userRights": "User Rights",
+    "userRightsContent": "You have the right to access, correct, and delete your personal data.",
+    "contactForPrivacy": "Contact us for more information about privacy."
   }
 }
