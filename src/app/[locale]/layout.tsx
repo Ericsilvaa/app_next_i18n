@@ -1,7 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 
-import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -26,16 +27,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body suppressHydrationWarning={true} className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          <header className='bg-primary text-primary-foreground'>
-            <NavBar />
-          </header>
+          <Header />
           <main className='container mx-auto px-4 py-8'>{children}</main>
-          <footer className='bg-primary text-primary-foreground mt-8'>
-            <div className='container mx-auto px-4 py-6 text-center'>
-              © {new Date().getFullYear()} Institution Name. All rights
-              reserved.
-            </div>
-          </footer>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
