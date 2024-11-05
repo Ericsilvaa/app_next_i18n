@@ -1,30 +1,37 @@
+'use client'
+import { useRouter } from '@/navigation'
 import { useTranslations } from 'next-intl'
 
 const ProgramsSection = () => {
+  const router = useRouter()
   const t = useTranslations('Programs')
 
   const programs = [
     {
-      key: 'education',
-      title: t('educationProgram'),
-      description: t('educationDescription')
+      key: 'educationProgram',
+      title: t('educationProgram.title'),
+      description: t('educationProgram.description')
     },
     {
-      key: 'health',
-      title: t('healthProgram'),
-      description: t('healthDescription')
+      key: 'volunteerProgram',
+      title: t('volunteerProgram.title'),
+      description: t('volunteerProgram.description')
     },
     {
-      key: 'community',
-      title: t('communityProgram'),
-      description: t('communityDescription')
+      key: 'undergraduate',
+      title: t('undergraduate.title'),
+      description: t('undergraduate.description')
     },
     {
-      key: 'volunteer',
-      title: t('volunteerProgram'),
-      description: t('volunteerDescription')
+      key: 'graduate',
+      title: t('graduate.title'),
+      description: t('graduate.description')
     }
   ]
+
+  const handleLearnMoreClick = (programId: string) => {
+    router.push(`/programs/${programId}`)
+  }
 
   return (
     <section>
@@ -47,7 +54,10 @@ const ProgramsSection = () => {
               {program.title}
             </h3>
             <p className='text-gray-600 text-sm'>{program.description}</p>
-            <button className='mt-4 text-blue-600 font-semibold hover:underline'>
+            <button
+              onClick={() => handleLearnMoreClick(program.key)}
+              className='mt-4 text-blue-600 font-semibold hover:underline'
+            >
               {t('learnMoreButton')}
             </button>
           </div>
