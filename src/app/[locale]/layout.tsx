@@ -49,6 +49,11 @@ export default async function LocaleLayout({
                     About
                   </Link>
                 </li>
+                <li>
+                  <Link href='/events' className='hover:underline'>
+                    Events
+                  </Link>
+                </li>
               </ul>
             </nav>
           </header>
