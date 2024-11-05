@@ -1,7 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 
-import { Link } from '@/navigation'
+import NavBar from '@/components/NavBar'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -27,35 +27,7 @@ export default async function LocaleLayout({
       <body suppressHydrationWarning={true} className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <header className='bg-primary text-primary-foreground'>
-            <nav className='container mx-auto px-4 py-6'>
-              <ul className='flex space-x-4'>
-                <li>
-                  <Link href='/' className='hover:underline'>
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/contact' className='hover:underline'>
-                    Contact
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/programs' className='hover:underline'>
-                    Programs
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/about' className='hover:underline'>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/events' className='hover:underline'>
-                    Events
-                  </Link>
-                </li>
-              </ul>
-            </nav>
+            <NavBar />
           </header>
           <main className='container mx-auto px-4 py-8'>{children}</main>
           <footer className='bg-primary text-primary-foreground mt-8'>
