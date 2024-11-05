@@ -154,5 +154,12 @@
     "userRights": "Direitos dos Usuários",
     "userRightsContent": "Você tem o direito de acessar, corrigir e excluir seus dados pessoais.",
     "contactForPrivacy": "Para mais informações sobre privacidade, entre em contato."
+  },
+  "NavLink": {
+    "home": "Início",
+    "about": "Sobre",
+    "programs": "Programas",
+    "events": "Eventos",
+    "contact": "Contato"
   }
 }
