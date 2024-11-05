@@ -32,10 +32,10 @@ export default function Home() {
           <Image
             src='/images/university.jpg'
             alt='Institution building'
-            objectFit='cover'
             width={300}
             height={300}
-            className='rounded-lg w-full h-full brightness-75'
+            priority
+            className='rounded-lg w-full h-full brightness-75 object-contain'
           />
           <div className='absolute inset-0 flex items-center justify-center'>
             <span className='text-center text-white text-2xl font-semibold'>

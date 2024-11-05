@@ -1,6 +1,8 @@
-import Link from 'next/link'
+import { Link } from '@/navigation'
+import { useTranslations } from 'next-intl'
 
 export default function NotFoundPage() {
+  const t = useTranslations('NotFound')
   return (
     <html>
       <body
@@ -13,7 +15,7 @@ export default function NotFoundPage() {
           href={'/'}
           className='font-roboto font-medium text-2xl text-custom-purple bg-white border border-custom-purple rounded-md px-4 py-2'
         >
-          Something Wrong
+          {t('backToHome')}
         </Link>
       </body>
     </html>
