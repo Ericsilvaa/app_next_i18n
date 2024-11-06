@@ -1,7 +1,7 @@
 import { createNavigation } from 'next-intl/navigation'
 
 import { LocalePrefix, Pathnames } from 'next-intl/routing'
-export const locales = ['en', 'pt'] as const
+export const locales = ['en', 'pt', 'it', 'es'] as const
 
 export type Locales = typeof locales
 
