@@ -128,6 +128,8 @@
     "messageLabel": "Mensagem",
     "messagePlaceholder": "Escreva sua mensagem aqui",
     "submitButton": "Enviar",
+    "sending": "Enviando...",
+    "thankYou": "Obrigado! Entraremos em contato em breve.",
     "contactInfoTitle": "Informações de Contato",
     "phone": "Telefone",
     "email": "Email",
