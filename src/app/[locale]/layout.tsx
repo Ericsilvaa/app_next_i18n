@@ -1,5 +1,4 @@
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import BaseLayout from '@/components/layouts/BaseLayout'
 import { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
@@ -24,9 +23,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
     <html lang={locale}>
       <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className='container mx-auto px-4 py-8'>{children}</main>
-          <Footer />
+          <BaseLayout>{children}</BaseLayout>
         </NextIntlClientProvider>
       </body>
     </html>
