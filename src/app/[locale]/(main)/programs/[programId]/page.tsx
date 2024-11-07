@@ -18,7 +18,7 @@ interface Program {
   fullDescription: string
   duration: string
   admissionRequirements: string
-  careers: string
+  careers: string | string[]
 }
 
 const ProgramDetailPage = () => {
@@ -121,9 +121,12 @@ const ProgramDetailPage = () => {
       </div>
 
       <section className='text-center mt-12'>
-        <button className='bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 transition duration-200'>
+        <Link
+          href={`/programs/${programId}/subscribe`}
+          className='bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 transition duration-200'
+        >
           {t('applyButton')}
-        </button>
+        </Link>
       </section>
     </div>
   )
