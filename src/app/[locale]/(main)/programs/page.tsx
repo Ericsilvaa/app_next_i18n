@@ -40,7 +40,7 @@ function ProgramsPage() {
   ]
 
   const handleLearnMoreClick = (programId: string) => {
-    router.push(`/programs/${programId}`)
+    router.push(`/programs/${programId}/details`)
   }
 
   const testimonials = [t('testimonial1'), t('testimonial2'), t('testimonial3')]
