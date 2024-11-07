@@ -54,7 +54,7 @@ const Subscribe = () => {
         </div>
         <button
           type='submit'
-          className='w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition'
+          className='w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition flex justify-center items-center'
           disabled={isSubmitting}
         >
           {isSubmitting ? (
