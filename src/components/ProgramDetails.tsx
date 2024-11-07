@@ -1,10 +1,19 @@
 'use client'
+import Title from '@/components/common/Title'
 import { ProgramID, Programs } from '@/constants/Programs'
+import { Link } from '@/navigation'
+import { ArrowLeft } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
 import React from 'react'
 
-const ProgramDetails: React.FC = () => {
+type ProgramDetailsProps = {
+  backButton?: boolean
+}
+
+const ProgramDetails: React.FC<ProgramDetailsProps> = ({
+  backButton = false
+}) => {
   const t = useTranslations('Programs')
   const { programId } = useParams()
 
@@ -16,9 +25,14 @@ const ProgramDetails: React.FC = () => {
 
   return (
     <>
-      <h1 className='text-4xl font-bold text-blue-800 mb-6 flex flex-row items-center gap-2'>
-        {t(program.title)}
-      </h1>
+      <div className='flex gap-2 mb-2 flex-row items-center '>
+        {backButton && (
+          <Link href='/programs' className='py-2 px-1'>
+            <ArrowLeft className='text-blue-800' size={30} />
+          </Link>
+        )}
+        <Title title={t(program.title)} />
+      </div>
       <p className='text-lg text-gray-700 mb-6'>{t(program.fullDescription)}</p>
 
       <div className='space-y-8'>
