@@ -1,3 +1,4 @@
+'use client'
 import {
   EventActions,
   EventDetails,
@@ -5,15 +6,19 @@ import {
   EventSections,
   sampleEventTranslations
 } from '@/constants/Events'
+import { useRouter } from '@/navigation'
 import { useTranslations } from 'next-intl'
 
 const EventPage = () => {
+  const router = useRouter()
   const t = useTranslations('Events')
-  // Lê o locale atual diretamente do JSON de tradução
   const locale = t('locale') as 'pt' | 'en' | 'it' | 'es'
-
-  // Seleciona o evento com base no locale
   const sampleEvent = sampleEventTranslations[locale]
+
+  const handleNavigate = (eventId: string) => {
+    const id = eventId.split(' ').join('-').toLocaleLowerCase()
+    router.push(`/events/${id}/subscribe`)
+  }
 
   return (
     <div className='p-8 bg-gray-50 text-gray-800 shadow-md rounded-lg'>
@@ -36,7 +41,10 @@ const EventPage = () => {
                 <strong>{t(label)}</strong> {sampleEvent[key]}
               </p>
             ))}
-            <button className='mt-6 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition'>
+            <button
+              onClick={() => handleNavigate(sampleEvent.eventName)}
+              className='mt-6 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition'
+            >
               {t(EventActions[0])}
             </button>
           </div>
