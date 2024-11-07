@@ -1,6 +1,6 @@
-// components/Subscribe.tsx
 'use client'
 import { useRouter } from '@/navigation'
+import { Loader2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { FormEvent, useState } from 'react'
 import { InputBase } from '../InputBase'
@@ -10,17 +10,21 @@ const Subscribe = () => {
   const t = useTranslations('Subscribe')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    setIsSubmitting(true)
     event.preventDefault()
+    await new Promise((resolve) => setTimeout(resolve, 1000))
     console.log('Subscription submitted:', { name, email })
     setName('')
     setEmail('')
+    setIsSubmitting(false)
     router.replace('/feedback')
   }
 
   return (
-    <div className='max-w-2xl mx-auto p-6 space-y-6'>
+    <div className='max-w-2xl p-6 space-y-6'>
       <h1 className='text-3xl font-bold text-blue-800'>{t('title')}</h1>
       <form onSubmit={handleSubmit} className='space-y-4'>
         <div>
@@ -51,8 +55,13 @@ const Subscribe = () => {
         <button
           type='submit'
           className='w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition'
+          disabled={isSubmitting}
         >
-          {t('submitButton')}
+          {isSubmitting ? (
+            <Loader2 className='animate-spin mr-2' size={20} />
+          ) : (
+            t('submitButton')
+          )}
         </button>
       </form>
     </div>
