@@ -19,7 +19,72 @@ export interface Program {
   admissionRequirements: string | string[]
   careers: string | string[]
 }
+export interface RelatedProgram extends Program {
+  id: string
+}
 
+const RelatedPrograms: RelatedProgram[] = [
+  {
+    id: '1',
+    title: 'Program A',
+    description: 'Description of Program A',
+    fullDescription:
+      'Full description of Program A, including objectives and goals.',
+    duration: '3 months',
+    admissionRequirements: 'Requirements for Program A',
+    careers: 'Career paths for Program A'
+  },
+  {
+    id: '2',
+    title: 'Program B',
+    description: 'Description of Program B',
+    fullDescription:
+      'Full description of Program B, including objectives and goals.',
+    duration: '6 months',
+    admissionRequirements: 'Requirements for Program B',
+    careers: 'Career paths for Program B'
+  },
+  {
+    id: '3',
+    title: 'Program C',
+    description: 'Description of Program C',
+    fullDescription:
+      'Full description of Program C, including objectives and goals.',
+    duration: '1 year',
+    admissionRequirements: 'Requirements for Program C',
+    careers: 'Career paths for Program C'
+  },
+  {
+    id: '4',
+    title: 'Program D',
+    description: 'Description of Program D',
+    fullDescription:
+      'Full description of Program D, including objectives and goals.',
+    duration: '4 months',
+    admissionRequirements: 'Requirements for Program D',
+    careers: 'Career paths for Program D'
+  },
+  {
+    id: '5',
+    title: 'Program E',
+    description: 'Description of Program E',
+    fullDescription:
+      'Full description of Program E, including objectives and goals.',
+    duration: '2 years',
+    admissionRequirements: 'Requirements for Program E',
+    careers: 'Career paths for Program E'
+  },
+  {
+    id: '6',
+    title: 'Program F',
+    description: 'Description of Program F',
+    fullDescription:
+      'Full description of Program F, including objectives and goals.',
+    duration: '6 weeks',
+    admissionRequirements: 'Requirements for Program F',
+    careers: 'Career paths for Program F'
+  }
+]
 const Programs: Record<ProgramID, Program> = {
   educationProgram: {
     title: 'educationProgram.title',
@@ -104,4 +169,4 @@ const ProgramsSectionCard: ProgramsSectionType[] = [
   }
 ]
 
-export { Programs, ProgramsSectionCard }
+export { Programs, ProgramsSectionCard, RelatedPrograms }
