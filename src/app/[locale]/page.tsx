@@ -1,4 +1,5 @@
 import ProgramsSection from '@/components/sections/Programs'
+import { ProgramsSectionCard } from '@/constants/Programs'
 import { Link } from '@/navigation'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
@@ -50,7 +51,7 @@ export default function Home() {
         <h2 className='text-3xl font-bold text-blue-700 mb-6 text-center'>
           {t('explorePrograms')}
         </h2>
-        <ProgramsSection />
+        <ProgramsSection programs={ProgramsSectionCard.slice(0, 3)} />
       </section>
 
       {/* Seção de Contato */}
