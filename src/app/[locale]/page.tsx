@@ -39,7 +39,7 @@ export default function Home() {
             className='rounded-lg w-full h-full brightness-75 object-contain'
           />
           <div className='absolute inset-0 flex items-center justify-center'>
-            <span className='text-center text-white text-2xl font-semibold'>
+            <span className='text-center text-white text-xl font-semibold max-w-sm break-words'>
               {t('missionStatement')}
             </span>
           </div>

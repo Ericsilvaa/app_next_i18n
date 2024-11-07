@@ -94,4 +94,17 @@ body {
   .animate-fade-in {
     animation: fadeIn 0.3s ease-in-out;
   }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  .scrollbar-thumb-blue-600 {
+    background-color: #2563eb; /* Tailwind's blue-600 */
+    border-radius: 9999px; /* Fully rounded */
+  }
+
+  .scrollbar-track-gray-200 {
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+  }
 }

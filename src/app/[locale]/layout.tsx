@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { ReactNode } from 'react'
-import './globals.css'
+import '../globals.css'
 
 export const metadata: Metadata = {
   title: 'Institution Website',
