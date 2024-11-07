@@ -24,7 +24,7 @@ const Subscribe = () => {
   }
 
   return (
-    <div className='max-w-2xl p-6 space-y-6'>
+    <div className='max-w-2xl p-2 space-y-4'>
       <h1 className='text-3xl font-bold text-blue-800'>{t('title')}</h1>
       <form onSubmit={handleSubmit} className='space-y-4'>
         <div>
