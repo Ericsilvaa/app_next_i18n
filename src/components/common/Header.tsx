@@ -1,8 +1,8 @@
 'use client'
 
 import { localeOptions } from '@/constants/LocalOptions'
+import LocaleSwitcher from '../switcher/LocaleSwitcher'
 import NavBar from './NavBar'
-import LocaleSwitcher from './switcher/LocaleSwitcher'
 
 function Header() {
   return (

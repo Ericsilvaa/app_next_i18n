@@ -1,5 +1,5 @@
 'use client'
-import { InputBase } from '@/components/InputBase'
+import { InputBase } from '@/components/common/InputBase'
 import { Textarea } from '@/components/ui/textarea'
 import { toast } from '@/hooks/use-toast'
 import { Link, useRouter } from '@/navigation'

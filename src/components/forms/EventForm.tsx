@@ -3,7 +3,7 @@ import { useRouter } from '@/navigation'
 import { Loader2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { FormEvent, useState } from 'react'
-import { InputBase } from '../InputBase'
+import { InputBase } from '../common/InputBase'
 
 const EventForm = () => {
   const t = useTranslations('Subscribe')
