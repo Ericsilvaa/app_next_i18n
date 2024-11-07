@@ -154,5 +154,18 @@
   },
   "NotFound": {
     "returnHome": "Torna alla Home"
+  },
+  "Subscribe": {
+    "title": "Iscrizione al Programma",
+    "name": "Nome Completo",
+    "email": "Indirizzo Email",
+    "submitButton": "Iscriviti",
+    "namePlaceholder": "Inserisci il tuo nome completo",
+    "emailPlaceholder": "Inserisci il tuo indirizzo email"
+  },
+  "Feedback": {
+    "backToHome": "Torna a Casa",
+    "thankYou": "Grazie! La tua iscrizione è stata ricevuta con successo.",
+    "redirecting": "Reindirizzando in"
   }
 }

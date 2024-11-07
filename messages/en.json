@@ -154,5 +154,18 @@
   },
   "NotFound": {
     "returnHome": "Return to Home"
+  },
+  "Subscribe": {
+    "title": "Program Subscription",
+    "name": "Full Name",
+    "email": "Email Address",
+    "submitButton": "Subscribe",
+    "namePlaceholder": "Enter your full name",
+    "emailPlaceholder": "Enter your email address"
+  },
+  "Feedback": {
+    "backToHome": "Go Back to Home",
+    "thankYou": "Thank you! Your subscription has been successfully received.",
+    "redirecting": "Redirecting in"
   }
 }

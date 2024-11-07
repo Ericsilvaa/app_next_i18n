@@ -154,5 +154,18 @@
   },
   "NotFound": {
     "returnHome": "Voltar para o início"
+  },
+  "Subscribe": {
+    "title": "Inscrição",
+    "name": "Nome Completo",
+    "email": "Endereço de E-mail",
+    "submitButton": "Inscrever-se",
+    "namePlaceholder": "Digite seu nome completo",
+    "emailPlaceholder": "Digite seu endereço de e-mail"
+  },
+  "Feedback": {
+    "backToHome": "Voltar para o Início",
+    "thankYou": "Obrigado! Sua inscrição foi recebida com sucesso.",
+    "redirecting": "Redirecionando em"
   }
 }
