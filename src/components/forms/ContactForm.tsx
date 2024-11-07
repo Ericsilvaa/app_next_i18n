@@ -19,7 +19,7 @@ const ContactForm: React.FC = () => {
     setIsSubmitting(true)
     event.preventDefault()
     await new Promise((resolve) => setTimeout(resolve, 1000))
-    console.log('Subscription submitted:', { name, email, message })
+    console.log('Contacting submitted:', { name, email, message })
     setName('')
     setEmail('')
     toast({
