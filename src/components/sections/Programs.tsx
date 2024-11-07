@@ -9,7 +9,7 @@ const ProgramsSection = ({ programs }: { programs: ProgramsSectionType[] }) => {
 
   const handleLearnMoreClick = (programId: string) => {
     console.log('🚀 ~ handleLearnMoreClick ~ programId:', programId)
-    router.push(`/programs/${programId}`)
+    router.push(`/programs/${programId}/details`)
   }
 
   return (
