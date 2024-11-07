@@ -3,13 +3,11 @@ import ProgramDetails from '@/components/ProgramDetails'
 
 const ProgramPage = () => {
   return (
-    <div className='flex max-w-6xl mx-auto p-6 space-x-6'>
-      <div className='flex-1'>
-        <Subscribe />
-      </div>
+    <div className='grid grid-cols-2 max-w-6xl py-6'>
+      <Subscribe />
 
-      <div className='flex-1'>
-        <ProgramDetails showBackLink={false} />
+      <div className='px-3 py-6'>
+        <ProgramDetails />
       </div>
     </div>
   )
