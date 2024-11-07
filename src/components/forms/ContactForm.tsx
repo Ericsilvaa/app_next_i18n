@@ -1,20 +1,34 @@
+'use client'
 import { InputBase } from '@/components/InputBase'
-import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
-import { Link } from '@/navigation'
+import { toast } from '@/hooks/use-toast'
+import { Link, useRouter } from '@/navigation'
 import { useTranslations } from 'next-intl'
-import React from 'react'
+import React, { FormEvent, useState } from 'react'
+import { Button } from '../ui/button'
 
-type ContactFormProps = {
-  handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void
-  isSubmitting: boolean
-}
-
-const ContactForm: React.FC<ContactFormProps> = ({
-  handleSubmit,
-  isSubmitting
-}) => {
+const ContactForm: React.FC = () => {
+  const router = useRouter()
   const t = useTranslations('Contact')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    setIsSubmitting(true)
+    event.preventDefault()
+    await new Promise((resolve) => setTimeout(resolve, 1000))
+    console.log('Subscription submitted:', { name, email, message })
+    setName('')
+    setEmail('')
+    toast({
+      title: t('submitButton'),
+      description: t('contactInstructions')
+    })
+    setIsSubmitting(false)
+    router.replace('/feedback')
+  }
 
   return (
     <>
@@ -37,7 +51,9 @@ const ContactForm: React.FC<ContactFormProps> = ({
           <InputBase
             id='name'
             name='name'
+            value={name}
             required
+            onChange={(e) => setName(e.target.value)}
             label={t('nameLabel')}
             placeholder={t('namePlaceholder')}
             className='w-full'
@@ -48,7 +64,8 @@ const ContactForm: React.FC<ContactFormProps> = ({
             id='email'
             name='email'
             type='email'
-            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             label={t('emailLabel')}
             placeholder={t('emailPlaceholder')}
             className='w-full'
@@ -64,7 +81,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
           <Textarea
             id='message'
             name='message'
-            required
+            onChange={(e) => setMessage(e.target.value)}
             placeholder={t('messagePlaceholder')}
             className='w-full'
           />
